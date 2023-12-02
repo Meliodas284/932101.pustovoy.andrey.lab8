@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task 8</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="container">
+		
+		<div class="panel-container">
+			<div class="inputs-container">
+				<div class="input-block">
+					<input class="input first-input" type="text" name="left">
+					<input class="input second-input" type="text" name="right">
+					<button class="inp-btn" onclick="moveUp(this)">
+						<div class="up-img"></div>
+					</button>
+					<button class="inp-btn" onclick="moveDown(this)">
+						<div class="down-img"></div>
+					</button>
+					<button class="inp-btn" onclick="removeBlock(this)">
+						<div class="cross-img"></div>
+					</button>
+				</div>
+			</div>
+
+			<div class="buttons-container">
+				<button class="button" onclick="addElement()">Добавить элемент</button>
+				<button class="button" onclick="saveText()">Сохранить</button>
+			</div>
+		</div>
+
+		<div class="text-field">
+			
+		</div>
+
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
